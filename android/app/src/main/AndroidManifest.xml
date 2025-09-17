@@ -1,4 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <uses-permission android:name = "android.permission.INTERNET"/>
+    //این خط برای اینه که وقتی ما پروژه رو ریلیز میکنبم بتونه از اینترنت عکس ها و فایل ها و اینا رو بخونه
+    
+    
     <application
         android:label="techblog"
         android:name="${applicationName}"
